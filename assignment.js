@@ -47,16 +47,16 @@ function woodCalculator(chair, table, bedstead){
           else if (floor<=20) {
               firstTotal = 10 * 15 * 1000;
               totalBricks = firstTotal * 10 *  12 * 1000;
-          }
+          } 
       
           else {
               firstTotal=10*15*1000;
               secondTotal=10*12*1000;
               totalBricks=firstTotal+secondTotal+(floor*10*1000);
           }
-          return totalBricks
+          return totalBricks;
       }
-      console.log("Total Bricks: ",brickCalculator(20));
+      console.log("Total Bricks: ",brickCalculator(10));
 
     //tinyFriend
     
@@ -70,7 +70,7 @@ function tinyFriend(strset) {
     	tinyFriend = strset[i]
     }
   }
-  return tinyFriend
+  return tinyFriend;
 }
     let nameArray = ["Tanvir Anik", "Tanjim Alam", "Ek Raju", "Imran Hossain", "Onti", "Manum", "Zobayer"];
     console.log( "Tiny Friend is:", tinyFriend(nameArray));
